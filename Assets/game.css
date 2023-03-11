@@ -1,0 +1,51 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: white
+  }
+  
+  .choice-container:hover {
+      cursor: pointer;
+      transform: translateY(-0.1rem);
+      transition: transform 150ms; 
+  }
+  
+  
+  
+  
+  .choice-prefix {
+      padding: 1.5rem 2.5rem;
+      background-color: black;
+      color: white;
+  }
+  
+  .choice-text {
+      padding: 1.5rem;
+      width: 100%;
+  }
+  
+  .correct {
+      background-color: lightgreen;
+  }
+  
+  .incorrect {
+      background-color: red;
+  }
+  
+  /*Display*/
+  
+  #display {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .display-prefix {
+      text-align: center;
+      font-size: 3rem;
+  }
+  
+  .display-main-text {
+      text-align: center;
+  }
